@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import './StoreContext.css'
 import axios from 'axios'
-import dotenv from 'dotenv'
-import 'dotenv/config'
 
 export const StoreContext = React.createContext(null)
 
