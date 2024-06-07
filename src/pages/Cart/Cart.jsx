@@ -28,7 +28,7 @@ const Cart = () => {
         <div className="cart-items-header">
           <p>Service</p>
           <p>Name</p>
-          <p>Description</p>
+          <p className='cart-description'>Description</p>
           <p>Date and Time</p>
           <p>Price</p>
           <p>Remove</p>

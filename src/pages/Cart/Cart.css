@@ -153,15 +153,29 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .cart-container {
+        gap: 30px;
+    }
+
+    .cart-description {
+        display: none;
+    }
+
+    .cart-items-item p:nth-child(3) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
 
     .cart-container {
         gap: 30px;
     }
-    
+
     .cart-items-name {
         display: grid;
         /* Ensure it's still a grid layout */
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         /* Adjust grid columns for smaller screens */
         justify-items: center;
         /* Center items */

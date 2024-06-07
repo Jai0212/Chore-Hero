@@ -32,7 +32,7 @@ const ShowService = ({ showService, setShowService }) => {
                     <img onClick={() => setShowService("")} src={assets.cross_icon} alt="" className='show-service-cross-icon' />
                 </div>
                 <div>
-                    <img src={url+"/images/"+servicesList.find(service => service.name === showService && service.cost !== null).image} alt="" className='show-service-image' />
+                    <img src={url + "/images/" + servicesList.find(service => service.name === showService && service.cost !== null).image} alt="" className='show-service-image' />
                 </div>
                 <div className='show-service-description'>
                     <textarea
@@ -69,10 +69,10 @@ const ShowService = ({ showService, setShowService }) => {
                 <div className='show-service-cost'>
                     <p>Cost: ${servicesList.find(service => service.name === showService && service.cost !== null).cost}</p>
                 </div>
-                {token 
-                ? <button className="show-service-button" onClick={handleAddToCart} disabled={!isFormValid}>Add to Cart</button>
-                : <button className="show-service-button" onClick={handleAddToCart} disabled={true} >Sign in to add services to cart</button>}
-                
+                {token
+                    ? <button className="show-service-button" onClick={handleAddToCart} disabled={!isFormValid}>Add to Cart</button>
+                    : <button className="show-service-button" onClick={handleAddToCart} disabled={true} >Sign in to add services to cart</button>}
+
             </form>
         </div>
     )

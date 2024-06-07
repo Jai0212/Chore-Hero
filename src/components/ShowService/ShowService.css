@@ -146,11 +146,12 @@ p {
 
 .show-service-date input,
 .show-service-time input {
-    width: 100%; /* CHANGED */
+    width: 100%;
+    /* CHANGED */
     /* Adjust input width */
     padding: 8px;
     /* Add padding */
-    border: 2px solid #ccc;
+    border: 2px solid black;
     /* Add border */
     border-radius: 4px;
     /* Add border radius */
@@ -182,5 +183,14 @@ p {
         /* Adjust padding */
         max-width: 500px;
         /* Limit maximum width */
+    }
+
+    .show-service-time {
+        margin-right: 20px;
+    }
+
+    .show-service-date input[type="date"],
+    .show-service-time input[type="time"] {
+        width: 30px;
     }
 }
