@@ -1,0 +1,136 @@
+.show-service-cross-icon {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: transparent;
+}
+
+.show-service-cross-icon:hover {
+    transform: scale(1.05);
+}
+
+.show-service div {
+    background-color: transparent;
+}
+
+.show-service {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: grid;
+}
+
+.show-service-popup {
+    place-self: center;
+    width: 500px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+    position: fixed;
+    border: 2px solid black;
+
+    /* Centering */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.show-service-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: transparent;
+}
+
+.show-service h2 {
+    font-size: 30px;
+}
+
+.show-service-image {
+    width: 440px;
+    max-height: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.show-service h2, input, button, p {
+    background-color: transparent;
+}
+
+.show-service-description textarea {
+    width: 440px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.show-service-date {
+    background-color: transparent;
+}
+
+.show-service-date label {
+    font-weight: 500;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.show-service-time {
+    background-color: transparent;
+}
+
+.show-service-time label {
+    font-weight: 500;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.show-service-date, .show-service-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.show-service-date-and-time {
+    display: flex;
+    flex-direction: row; /* Display the date and time items horizontally */
+    justify-content: space-between; /* Add space between the date and time */
+}
+
+.show-service-cost {
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.show-service button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0c14b;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.show-service button:hover {
+    background-color: #ddb347;
+}
+
+.show-service button:disabled {
+    background-color: #ccc; /* Change background color */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+    color: #999; /* Change text color */
+}
