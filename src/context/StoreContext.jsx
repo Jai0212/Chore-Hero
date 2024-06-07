@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react'
-import { services_to_image } from '../assets/assets'
 import './StoreContext.css'
 import axios from 'axios'
+import dotenv from 'dotenv'
+import 'dotenv/config'
 
 export const StoreContext = React.createContext(null)
 
 const StoreContextProvider = (props) => {
 
-    const url = "https://chore-hero-backend.onrender.com"
+    const url = process.env.REACT_APP_API_URL;
     const [token, setToken] = React.useState("");
 
     const [servicesList, setServicesList] = React.useState([]);
