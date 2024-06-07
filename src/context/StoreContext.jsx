@@ -7,7 +7,7 @@ export const StoreContext = React.createContext(null)
 const StoreContextProvider = (props) => {
 
     console.log(process.env.REACT_APP_API_URL);
-    const url = process.env.REACT_APP_API_URL;
+    const url = process.env.REACT_APP_API_URL || "https://chore-hero-backend.onrender.com";
     console.log(url);
     const [token, setToken] = React.useState("");
 
