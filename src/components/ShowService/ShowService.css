@@ -78,10 +78,8 @@ p {
     height: 100px;
     background-color: transparent;
     padding: 6px;
-}
-
-.show-service-description::placeholder {
-    font-size: 16px;
+    border-radius: 2px;
+    border: 1.5px solid black;
 }
 
 .show-service-date {
@@ -191,6 +189,10 @@ p {
 
     .show-service-date input[type="date"],
     .show-service-time input[type="time"] {
-        width: 30px;
+        width: 60px;
+    }
+
+    .show-service-description textarea::placeholder {
+        font-size: 16px;
     }
 }
