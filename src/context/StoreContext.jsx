@@ -6,7 +6,9 @@ export const StoreContext = React.createContext(null)
 
 const StoreContextProvider = (props) => {
 
+    console.log(process.env.REACT_APP_API_URL);
     const url = process.env.REACT_APP_API_URL;
+    console.log(url);
     const [token, setToken] = React.useState("");
 
     const [servicesList, setServicesList] = React.useState([]);
