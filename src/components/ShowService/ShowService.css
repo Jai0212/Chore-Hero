@@ -141,11 +141,11 @@ p {
 
 .show-service-date input,
 .show-service-time input {
-    width: calc(100% - 10px);
+    width: 100%; /* CHANGED */
     /* Adjust input width */
     padding: 8px;
     /* Add padding */
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     /* Add border */
     border-radius: 4px;
     /* Add border radius */

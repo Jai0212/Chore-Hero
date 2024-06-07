@@ -100,3 +100,9 @@
     margin: 10px 0px;
     border-color: black;
 }
+
+@media (max-width: 768px) {
+    .order-service-container {
+        gap: 200px;
+    }
+}
