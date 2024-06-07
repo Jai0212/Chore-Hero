@@ -12,9 +12,11 @@ import MyOrders from './pages/MyOrders/MyOrders'
 const App = () => {
 
   const [showLogin, setShowLogin] = React.useState(false)
-  
+
   return (
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
       {showLogin ? <Login setShowLogin={setShowLogin} /> : <></>}
 
       <div className='app'>
