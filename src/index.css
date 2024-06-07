@@ -10,9 +10,9 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   min-width: 100vh;
-}
+} */
 
 a {
   text-decoration: none;

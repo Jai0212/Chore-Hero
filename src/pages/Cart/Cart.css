@@ -214,15 +214,15 @@
     .one {
         display: flex;
         align-items: center;
-        margin-right: 42px;
+        margin-right: 45px;
         margin-left: 20px;
     }
 
     .three {
-        margin-left: 45px;
+        margin-left: 55px;
     }
 
     .four {
-        margin-right: 58px;
+        margin-right: 60px;
     }
 }
