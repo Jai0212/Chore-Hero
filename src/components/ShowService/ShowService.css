@@ -189,7 +189,8 @@ p {
 
     .show-service-date input[type="date"],
     .show-service-time input[type="time"] {
-        width: 60px;
+        width: 70px;
+        height: 25px;
     }
 
     .show-service-description textarea::placeholder {
