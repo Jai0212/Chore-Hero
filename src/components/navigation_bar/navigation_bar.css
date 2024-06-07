@@ -217,4 +217,8 @@
     .navigation-bar-menu {
         display: none;
     }
+
+    .cart {
+        width: 40px; /* new */
+    }
 }
