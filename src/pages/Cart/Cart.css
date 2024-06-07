@@ -215,6 +215,7 @@
         display: flex;
         align-items: center;
         margin-right: 30px;
+        margin-left: 20px;
     }
 
     .three {
@@ -222,6 +223,6 @@
     }
 
     .four {
-        margin-right: 20px;
+        margin-right: 50px;
     }
 }
