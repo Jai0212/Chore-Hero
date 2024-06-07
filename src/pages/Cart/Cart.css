@@ -167,49 +167,47 @@
 }
 
 @media only screen and (max-width: 768px) {
-
     .cart-container {
         gap: 35px;
     }
 
     .cart-items-name {
         display: grid;
-        /* Ensure it's still a grid layout */
         grid-template-columns: repeat(5, 1fr);
-        /* Adjust grid columns for smaller screens */
         justify-items: center;
-        /* Center items */
         text-align: center;
-        /* Center text */
         align-items: center;
-        /* Align items vertically */
     }
 
     .cart-items-item {
         display: grid;
-        /* Ensure item layout is grid */
         grid-template-columns: repeat(6, 1fr);
-        /* Adjust grid columns for smaller screens */
         align-items: center;
-        /* Align items vertically */
     }
 
     .cart-items-item img {
         width: 60px;
-        /* Reduce image size */
     }
 
     .service-date-and-time {
         margin-left: 0;
-        /* Reset margin */
         grid-column: span 2;
-        /* Span two columns for date and time */
     }
 
     .x-icon {
         margin-left: 0;
-        /* Reset margin */
         grid-column: span 1;
-        /* Span one column for remove icon */
+    }
+
+    .cart-items-header p:nth-child(3),
+    .cart-items-item p:nth-child(3) {
+        display: none;
+        /* Hide the description column */
+    }
+
+    .cart-items-header p:nth-child(5),
+    .cart-items-item p:nth-child(5) {
+        grid-column: span 1;
+        /* Adjust other columns */
     }
 }
