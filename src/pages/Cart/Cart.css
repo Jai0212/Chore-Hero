@@ -210,4 +210,18 @@
         grid-column: span 1;
         /* Adjust other columns */
     }
+
+    .one {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .three {
+        margin-left: 35px;
+    }
+
+    .four {
+        margin-right: 20px;
+    }
 }

@@ -216,7 +216,7 @@
     }
 
     .navigation-bar-right {
-        gap: 20px;
+        gap: 30px;
     }
 
     .navigation-bar-right img {
@@ -241,5 +241,9 @@
     .cart {
         width: 40px;
         /* new */
+    }
+
+    .navigation-bar-right {
+        gap: 30px;
     }
 }

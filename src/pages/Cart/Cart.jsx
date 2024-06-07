@@ -26,12 +26,12 @@ const Cart = () => {
     <div className='cart-icon'>
       <div className="cart-items">
         <div className="cart-items-header">
-          <p>Service</p>
-          <p>Name</p>
+          <p className='one'>Service</p>
+          <p className='two'>Name</p>
           <p className='cart-description'>Description</p>
-          <p>Date and Time</p>
-          <p>Price</p>
-          <p>Remove</p>
+          <p className='three'>Date and Time</p>
+          <p className='four'>Price</p>
+          <p className='five'>Remove</p>
         </div>
         <br />
         <hr className='cart-hr' />
