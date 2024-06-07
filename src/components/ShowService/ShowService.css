@@ -77,6 +77,11 @@ p {
     width: 440px;
     height: 100px;
     background-color: transparent;
+    padding: 6px;
+}
+
+.show-service-description::placeholder {
+    font-size: 16px;
 }
 
 .show-service-date {
@@ -177,27 +182,5 @@ p {
         /* Adjust padding */
         max-width: 500px;
         /* Limit maximum width */
-    }
-
-    .show-service-date,
-    .show-service-time {
-        flex-direction: column;
-        /* Change to column layout on smaller screens */
-        align-items: flex-start;
-        /* Align items to start */
-        gap: 8px;
-        /* Adjust gap between items */
-    }
-
-    .show-service-date label,
-    .show-service-time label {
-        margin-bottom: 5px;
-        /* Add space below labels */
-    }
-
-    .show-service-date input,
-    .show-service-time input {
-        width: calc(100% - 10px);
-        /* Adjust input width */
     }
 }

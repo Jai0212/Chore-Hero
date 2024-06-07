@@ -153,6 +153,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .cart-container {
+        gap: 30px;
+    }
+    
     .cart-items-name {
         display: grid;
         /* Ensure it's still a grid layout */
