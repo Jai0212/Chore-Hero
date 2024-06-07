@@ -66,7 +66,10 @@
     border: 2px solid black;
 }
 
-.show-service h2, input, button, p {
+.show-service h2,
+input,
+button,
+p {
     background-color: transparent;
 }
 
@@ -96,7 +99,8 @@
     margin-right: 5px;
 }
 
-.show-service-date, .show-service-time {
+.show-service-date,
+.show-service-time {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,8 +109,8 @@
 
 .show-service-date-and-time {
     display: flex;
-    flex-direction: row; /* Display the date and time items horizontally */
-    justify-content: space-between; /* Add space between the date and time */
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .show-service-cost {
@@ -130,7 +134,46 @@
 }
 
 .show-service button:disabled {
-    background-color: #ccc; /* Change background color */
-    cursor: not-allowed; /* Change cursor to not-allowed */
-    color: #999; /* Change text color */
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #999;
+}
+
+@media (max-width: 1024px) {
+    .show-service-popup {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .show-service-popup {
+        width: 90%;
+        /* Adjust width for smaller screens */
+        padding: 20px;
+        /* Adjust padding */
+        max-width: 500px;
+        /* Limit maximum width */
+    }
+
+    .show-service-date,
+    .show-service-time {
+        flex-direction: column;
+        /* Change to column layout on smaller screens */
+        align-items: flex-start;
+        /* Align items to start */
+        gap: 8px;
+        /* Adjust gap between items */
+    }
+
+    .show-service-date label,
+    .show-service-time label {
+        margin-bottom: 5px;
+        /* Add space below labels */
+    }
+
+    .show-service-date input,
+    .show-service-time input {
+        width: calc(100% - 10px);
+        /* Adjust input width */
+    }
 }

@@ -171,6 +171,10 @@
         width: 140px;
     }
 
+    .navigation-bar-right img {
+        width: 26px; /* Increase the size of icons */
+    }
+
     .navigation-bar-menu {
         gap: 20px;
         font-size: 17px;
@@ -202,6 +206,10 @@
         width: 1w0px;
     }
 
+    .navigation-bar-right img {
+        width: 24px; /* Increase the size of icons */
+    }
+
     .navigation-bar-menu {
         gap: 15px;
         font-size: 16px;
@@ -224,6 +232,10 @@
 @media (max-width: 779px) {
     .navigation-bar-menu {
         display: none;
+    }
+
+    .navigation-bar-right img {
+        width: 28px; /* Increase the size of icons */
     }
 
     .cart {

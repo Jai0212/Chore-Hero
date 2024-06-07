@@ -151,3 +151,96 @@
     margin: 10px 0px;
     border-color: black;
 }
+
+@media (max-width: 768px) {
+    .cart-icon {
+        margin-top: 50px;
+        /* Adjust margin top for smaller screens */
+    }
+
+    .cart-items-name {
+        grid-template-columns: 0.4fr 0.8fr 2.5fr 0.7fr 0.3fr 0.2fr;
+        /* Adjust grid layout for smaller screens */
+        font-size: max(1.1vw, 12px);
+        /* Adjust font size */
+    }
+
+    .cart-items-header {
+        font-size: 14px;
+        /* Adjust font size */
+    }
+
+    .cart-hr {
+        margin-top: 5px;
+        /* Adjust margin top for smaller screens */
+    }
+
+    .x-icon {
+        margin-left: -10px;
+        /* Adjust margin left for smaller screens */
+    }
+
+    .service-cost {
+        margin-left: -5px;
+        /* Adjust margin left for smaller screens */
+    }
+
+    .service-date-and-time {
+        margin-left: -45px;
+        /* Adjust margin left for smaller screens */
+    }
+
+    .cart-container {
+        flex-direction: column;
+        /* Adjust flex direction for smaller screens */
+        align-items: center;
+        /* Center items vertically */
+    }
+
+    .cart-bottom {
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    .cart-promocode {
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    .checkout-button {
+        width: 250px;
+        /* Adjust button width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .cart-items-name {
+        grid-template-columns: 0.3fr 0.7fr 2fr 0.7fr 0.3fr 0.2fr;
+        /* Further adjust grid layout for smaller screens */
+    }
+
+    .cart-hr {
+        margin-top: 3px;
+        /* Further adjust margin top for smaller screens */
+    }
+
+    .x-icon {
+        margin-left: -5px;
+        /* Further adjust margin left for smaller screens */
+    }
+
+    .service-cost {
+        margin-left: 0px;
+        /* Further adjust margin left for smaller screens */
+    }
+
+    .service-date-and-time {
+        margin-left: -30px;
+        /* Further adjust margin left for smaller screens */
+    }
+
+    .checkout-button {
+        width: 200px;
+        /* Further adjust button width for smaller screens */
+    }
+}
