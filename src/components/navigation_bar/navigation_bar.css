@@ -125,7 +125,7 @@
     position: relative;
 }
 
-.navigation-bar-profile:hover .navigation-bar-profile-dropdown{
+.navigation-bar-profile:hover .navigation-bar-profile-dropdown {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -167,7 +167,7 @@
 }
 
 @media (max-width: 1050px) {
-    .navigation-bar .logo{
+    .navigation-bar .logo {
         width: 140px;
     }
 
@@ -187,10 +187,18 @@
     .navigation-bar-right button {
         padding: 8px 25px;
     }
+
+    .cart {
+        width: 38px;
+    }
+
+    .navigation-bar-profile-icon {
+        width: 45px;
+    }
 }
 
 @media (max-width: 900px) {
-    .navigation-bar .logo{
+    .navigation-bar .logo {
         width: 1w0px;
     }
 
@@ -219,6 +227,7 @@
     }
 
     .cart {
-        width: 40px; /* new */
+        width: 40px;
+        /* new */
     }
 }
