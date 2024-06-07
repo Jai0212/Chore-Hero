@@ -1,12 +1,11 @@
 import React from 'react'
 import './ShowService.css'
 import { assets } from '../../assets/assets'
-import { getServiceImage, getServiceCost } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
 
 const ShowService = ({ showService, setShowService }) => {
 
-    const { cartItems, addToCart, removeFromCart, servicesList, token, url } = React.useContext(StoreContext);
+    const { addToCart, servicesList, token, url } = React.useContext(StoreContext);
     const [description, setDescription] = React.useState('');
     const [date, setDate] = React.useState('');
     const [time, setTime] = React.useState('');

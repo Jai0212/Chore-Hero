@@ -139,6 +139,30 @@ p {
     color: #999;
 }
 
+.show-service-date input,
+.show-service-time input {
+    width: calc(100% - 10px);
+    /* Adjust input width */
+    padding: 8px;
+    /* Add padding */
+    border: 1px solid #ccc;
+    /* Add border */
+    border-radius: 4px;
+    /* Add border radius */
+}
+
+.show-service-date input[type="date"],
+.show-service-time input[type="time"] {
+    appearance: none;
+    /* Remove default appearance */
+    background-color: white;
+    /* Set background color */
+    outline: none;
+    /* Remove outline */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
 @media (max-width: 1024px) {
     .show-service-popup {
         width: 70%;

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Cart.css'
-import { services_list } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
