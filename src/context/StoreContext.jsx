@@ -7,7 +7,7 @@ export const StoreContext = React.createContext(null)
 
 const StoreContextProvider = (props) => {
 
-    const url = "http://localhost:4000"
+    const url = "https://chore-hero-backend.onrender.com"
     const [token, setToken] = React.useState("");
 
     const [servicesList, setServicesList] = React.useState([]);
