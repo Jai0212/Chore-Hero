@@ -29,7 +29,9 @@
     background-color: #323232;
 }
 
-.footer-content-left, .footer-content-center, .footer-content-right {
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -38,7 +40,9 @@
     background-color: #323232;
 }
 
-.footer-content-left li, .footer-content-center li, .footer-content-right li {
+.footer-content-left li,
+.footer-content-center li,
+.footer-content-right li {
     margin-bottom: 10px;
     list-style: none;
     background: transparent;
@@ -46,14 +50,18 @@
     cursor: pointer;
 }
 
-.footer-content-left h2, .footer-content-center h2, .footer-content-right h2 {
+.footer-content-left h2,
+.footer-content-center h2,
+.footer-content-right h2 {
     color: white;
     background: transparent;
     background-color: #323232;
 }
 
 
-.footer-content-left ul, .footer-content-center ul, .footer-content-right ul {
+.footer-content-left ul,
+.footer-content-center ul,
+.footer-content-right ul {
     background-color: #323232;
 }
 
