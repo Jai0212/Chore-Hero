@@ -27,6 +27,13 @@
     width: 80px;
 }
 
+.service-cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .cart-hr {
     height: 1px;
     background-color: #006400;
@@ -161,7 +168,7 @@
 
     .cart-items-name {
         display: grid;
-        grid-template-columns: 0.6fr 0.8fr 0fr 0.6fr 0.3fr 0.2fr;
+        grid-template-columns: 0.6fr 0.7fr 0.9fr 0.3fr 0.2fr;
         justify-items: start;
         color: black;
         font-size: max(1vw, 12px);
@@ -169,7 +176,7 @@
 
     .cart-items-header {
         display: grid;
-        grid-template-columns: 0.6fr 0.8fr 0fr 0.6fr 0.3fr 0.2fr;
+        grid-template-columns: 0.6fr 0.7fr 0.9fr 0.3fr 0.2fr;
         justify-items: start;
         color: #004d40;
         font-size: 16px
