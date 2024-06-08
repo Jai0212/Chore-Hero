@@ -105,14 +105,14 @@
     }
 
     .our-heroes-list-hero img {
-        width: 80px;
+        width: 100px;
         /* Adjust image width */
-        height: 80px;
+        height: 100px;
         /* Adjust image height */
     }
 
     .our-heroes-list-hero p {
-        font-size: 12px;
+        font-size: 16px;
         /* Reduce font size */
     }
 }
