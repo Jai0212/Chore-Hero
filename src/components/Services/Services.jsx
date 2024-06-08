@@ -11,7 +11,7 @@ const Services = ({ setShowService }) => {
     React.useEffect(() => {
         const timer = setTimeout(() => {
             setLoading(false); // Set loading to false after delay
-        }, 5000); // Adjust delay time as needed
+        }, 8000); // Adjust delay time as needed
 
         return () => clearTimeout(timer); // Cleanup on unmount
     }, []);
@@ -22,7 +22,7 @@ const Services = ({ setShowService }) => {
             <p className="services-text">Please wait while we fetch the services.</p>
             <div className="services-list">
                 {/* Create skeleton cards */}
-                {[1, 2, 3].map(index => (
+                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(index => (
                     <div key={index} className="services-list-name skeleton">
                         <div className="skeleton-image"></div>
                         <div className="skeleton-text"></div>
