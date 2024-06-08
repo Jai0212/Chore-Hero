@@ -144,8 +144,11 @@
     border-color: black;
 }
 
-.service-cost, .x-icon, .service-date-and-time, service-cart-description {
-    margin-right: 26px;
+.service-cost,
+.x-icon,
+.service-date-and-time,
+service-cart-description {
+    margin-right: 30px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -173,7 +176,16 @@
         width: 50px;
     }
 
-    .service-cost, .x-icon, .service-date-and-time, service-cart-description {
+    .service-cost,
+    .x-icon,
+    .service-date-and-time,
+    service-cart-description {
         margin-right: 0px;
     }
 }
+
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .service-cost, .x-icon, .service-date-and-time, service-cart-description {
+        margin-right: 0px;
+    }
+} */
