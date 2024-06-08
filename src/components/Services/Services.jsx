@@ -1,7 +1,7 @@
-import React from 'react'
-import './Services.css'
-import { services } from '../../assets/assets'
-import { StoreContext } from '../../context/StoreContext'
+import React from 'react';
+import './Services.css';
+import { StoreContext } from '../../context/StoreContext';
+import ServicesLoader from './ServicesLoader';
 
 const Services = ({ setShowService }) => {
 
@@ -14,18 +14,21 @@ const Services = ({ setShowService }) => {
             <p className="services-text">These are the services we provide!</p>
 
             <div className="services-list">
-                {servicesList.filter(service => service.cost !== null).map((service, index) => {
-                    return (
-                        <div key={index} className="services-list-name" onClick={() => setShowService(service.name)}>
-                            <img src={url + "/images/" + service.image} alt="" />
-                            <p>{service.name}</p>
-                        </div>
-                    )
-                })}
+                {servicesList ? (
+                    servicesList.filter(service => service.cost !== null).map((service, index) => {
+                        return (
+                            <div key={index} className="services-list-name" onClick={() => setShowService(service.name)}>
+                                <img src={url + "/images/" + service.image} alt="" />
+                                <p>{service.name}</p>
+                            </div>
+                        )
+                    })
+                ) : (
+                    <ServicesLoader />
+                )}
             </div>
-            {/* <hr /> */}
         </div>
     )
 }
 
-export default Services
+export default Services;
