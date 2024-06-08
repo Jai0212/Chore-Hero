@@ -171,6 +171,11 @@ p {
     .show-service-popup {
         width: 70%;
     }
+
+    .show-service-date input[type="date"],
+    .show-service-time input[type="time"] {
+        width: 80px;
+    }
 }
 
 @media (max-width: 768px) {

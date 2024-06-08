@@ -5,7 +5,7 @@
 .cart-items-name {
     display: grid;
     grid-template-columns: 0.5fr 0.8fr 3fr 0.6fr 0.3fr 0.2fr;
-    align-items: center;
+    justify-items: start;
     color: black;
     font-size: max(1vw, 12px);
 }
@@ -13,7 +13,7 @@
 .cart-items-header {
     display: grid;
     grid-template-columns: 0.5fr 0.8fr 3fr 0.6fr 0.3fr 0.2fr;
-    align-items: center;
+    justify-items: start;
     color: #004d40;
     font-size: 16px
 }
@@ -40,7 +40,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: -15px;
     transition: all 0.1s;
 }
 
@@ -49,16 +48,11 @@
     transform: scale(1.4);
 }
 
-.service-cost {
-    margin-left: -10px;
-}
-
 .service-date-and-time {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: -50px;
 }
 
 .cart-container {
@@ -164,65 +158,24 @@
     .cart-items-item p:nth-child(3) {
         display: none;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    .cart-container {
-        gap: 35px;
-    }
 
     .cart-items-name {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center;
-        text-align: center;
-        align-items: center;
+        grid-template-columns: 0.6fr 0.8fr 0fr 0.6fr 0.3fr 0.2fr;
+        justify-items: start;
+        color: black;
+        font-size: max(1vw, 12px);
     }
 
-    .cart-items-item {
+    .cart-items-header {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        align-items: center;
+        grid-template-columns: 0.6fr 0.8fr 0fr 0.6fr 0.3fr 0.2fr;
+        justify-items: start;
+        color: #004d40;
+        font-size: 16px
     }
 
     .cart-items-item img {
-        width: 60px;
-    }
-
-    .service-date-and-time {
-        margin-left: 0;
-        grid-column: span 2;
-    }
-
-    .x-icon {
-        margin-left: 0;
-        grid-column: span 1;
-    }
-
-    .cart-items-header p:nth-child(3),
-    .cart-items-item p:nth-child(3) {
-        display: none;
-        /* Hide the description column */
-    }
-
-    .cart-items-header p:nth-child(5),
-    .cart-items-item p:nth-child(5) {
-        grid-column: span 1;
-        /* Adjust other columns */
-    }
-
-    .one {
-        display: flex;
-        align-items: center;
-        margin-right: 45px;
-        margin-left: 20px;
-    }
-
-    .three {
-        margin-left: 60px;
-    }
-
-    .four {
-        margin-right: 60px;
+        width: 80px;
     }
 }
