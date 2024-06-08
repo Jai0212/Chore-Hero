@@ -1,7 +1,7 @@
 import React from 'react';
 import './Services.css';
 import { StoreContext } from '../../context/StoreContext';
-import ServicesLoader from './ServicesLoader';
+import ServicesLoader from '../ServicesLoader/ServicesLoader';
 
 const Services = ({ setShowService }) => {
 
