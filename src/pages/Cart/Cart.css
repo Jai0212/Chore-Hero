@@ -144,6 +144,10 @@
     border-color: black;
 }
 
+.service-cost, .x-icon, .service-date-and-time, service-cart-description {
+    margin-right: 18px;
+}
+
 @media only screen and (max-width: 768px) {
     .cart-container {
         gap: 30px;
@@ -167,5 +171,9 @@
 
     .cart-items-item img {
         width: 50px;
+    }
+
+    .service-cost, .x-icon, .service-date-and-time, service-cart-description {
+        margin-right: 0px;
     }
 }

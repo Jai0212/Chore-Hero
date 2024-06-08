@@ -46,7 +46,7 @@ const Cart = () => {
                 <div className='cart-items-name cart-items-item'>
                   <img src={url + "/images/" + service.image} alt={service.name} />
                   <p className='cart-service-name'>{service.name}</p>
-                  <p>{cartItems[key].description}</p> {/* Display description from cart item */}
+                  <p className='service-cart-description'>{cartItems[key].description}</p> {/* Display description from cart item */}
                   <p className='service-date-and-time'>
                     <span className='service-date-and-time-span'>{cartItems[key].date}</span> {/* Display date from cart item */}
                     <span className='service-date-and-time-span'>{cartItems[key].time}</span> {/* Display time from cart item */}
