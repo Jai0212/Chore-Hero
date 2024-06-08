@@ -94,29 +94,6 @@
     /* Rounded corners, matching your text style */
 }
 
-@keyframes shimmer {
-    0% {
-        opacity: 0.6;
-        /* Lower opacity */
-        transform: translateX(-100%);
-        /* Move left */
-    }
-
-    50% {
-        opacity: 0.8;
-        /* Higher opacity */
-        transform: translateX(100%);
-        /* Move right */
-    }
-
-    100% {
-        opacity: 0.6;
-        /* Lower opacity */
-        transform: translateX(-100%);
-        /* Move left */
-    }
-}
-
 .services-list-name .skeleton-image::before {
     /* Specify that the shimmer animation should only apply to .skeleton-image inside .services-list-name */
     content: '';
