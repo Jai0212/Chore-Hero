@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-right: 10px;
 }
 
 .cart-hr {
@@ -183,6 +184,13 @@
     }
 
     .cart-items-item img {
-        width: 80px;
+        width: 50px;
+    }
+
+    .cart-service-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }

@@ -45,7 +45,7 @@ const Cart = () => {
               <div key={index}>
                 <div className='cart-items-name cart-items-item'>
                   <img src={url + "/images/" + service.image} alt={service.name} />
-                  <p>{service.name}</p>
+                  <p className='cart-service-name'>{service.name}</p>
                   <p>{cartItems[key].description}</p> {/* Display description from cart item */}
                   <p className='service-date-and-time'>
                     <span className='service-date-and-time-span'>{cartItems[key].date}</span> {/* Display date from cart item */}
