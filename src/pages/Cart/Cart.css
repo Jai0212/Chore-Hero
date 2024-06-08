@@ -146,12 +146,9 @@
 
 .service-cost,
 .x-icon,
-.service-date-and-time {
-    margin-right: 30px;
-}
-
+.service-date-and-time
 .service-cart-description {
-    margin-right: 32px;
+    margin-right: 30px;
 }
 
 @media only screen and (max-width: 768px) {
