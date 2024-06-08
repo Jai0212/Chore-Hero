@@ -117,7 +117,8 @@
     }
 }
 
-.skeleton-image::before {
+.services-list-name .skeleton-image::before {
+    /* Specify that the shimmer animation should only apply to .skeleton-image inside .services-list-name */
     content: '';
     position: absolute;
     top: 0;
