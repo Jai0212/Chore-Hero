@@ -146,9 +146,12 @@
 
 .service-cost,
 .x-icon,
-.service-date-and-time,
-service-cart-description {
+.service-date-and-time {
     margin-right: 30px;
+}
+
+.service-cart-description {
+    margin-right: 40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -169,7 +172,6 @@ service-cart-description {
         grid-template-columns: 0.6fr 0.7fr 0.9fr 0.3fr 0.2fr;
         font-size: max(1vw, 12px);
         gap: 5px;
-        /* Adjust gap for smaller screens */
     }
 
     .cart-items-item img {
@@ -183,9 +185,3 @@ service-cart-description {
         margin-right: 0px;
     }
 }
-
-/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .service-cost, .x-icon, .service-date-and-time, service-cart-description {
-        margin-right: 0px;
-    }
-} */
