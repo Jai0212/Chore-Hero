@@ -110,5 +110,3 @@ const OrderService = () => {
 }
 
 export default OrderService
-
-// 3:11:00

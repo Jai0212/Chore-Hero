@@ -77,6 +77,3 @@ const Login = ({ setShowLogin }) => {
 }
 
 export default Login
-
-
-// 6:24:30

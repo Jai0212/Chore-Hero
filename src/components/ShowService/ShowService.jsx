@@ -17,7 +17,7 @@ const ShowService = ({ showService, setShowService }) => {
     }, [description, date, time]);
 
     const handleAddToCart = (e) => {
-        e.preventDefault(); // Prevent default form submission behavior
+        e.preventDefault();
         if (isFormValid) {
             addToCart(showService, description, date, time); // Call addToCart function
             setShowService("");

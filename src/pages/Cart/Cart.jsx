@@ -39,20 +39,20 @@ const Cart = () => {
           .filter(([key, item]) => item.quantity > 0)
           .map(([key, item], index) => {
             const service = servicesList.find(service => service._id === key && service.cost !== null);
-            if (!service) return null; // Skip rendering if service not found or cost is null
+            if (!service) return null;
 
             return (
               <div key={index}>
                 <div className='cart-items-name cart-items-item'>
                   <img src={url + "/images/" + service.image} alt={service.name} />
                   <p className='cart-service-name'>{service.name}</p>
-                  <p className='service-cart-description'>{cartItems[key].description}</p> {/* Display description from cart item */}
+                  <p className='service-cart-description'>{cartItems[key].description}</p>
                   <p className='service-date-and-time'>
-                    <span className='service-date-and-time-span'>{cartItems[key].date}</span> {/* Display date from cart item */}
-                    <span className='service-date-and-time-span'>{cartItems[key].time}</span> {/* Display time from cart item */}
+                    <span className='service-date-and-time-span'>{cartItems[key].date}</span>
+                    <span className='service-date-and-time-span'>{cartItems[key].time}</span>
                   </p>
                   <p className='service-cost'>${service.cost}</p>
-                  <p className='x-icon' onClick={() => removeFromCart(service.name)}>x</p> {/* Pass item ID to removeFromCart */}
+                  <p className='x-icon' onClick={() => removeFromCart(service.name)}>x</p>
                 </div>
                 <hr className='cart-hr' />
               </div>

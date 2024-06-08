@@ -10,9 +10,7 @@
     justify-items: center;
     align-items: center;
     gap: 10px;
-    /* Add some gap for better readability */
     text-align: center;
-    /* Center text within each cell */
 }
 
 .cart-items-header {

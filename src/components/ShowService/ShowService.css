@@ -37,7 +37,6 @@
     position: fixed;
     border: 2px solid black;
 
-    /* Centering */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -145,26 +144,17 @@ p {
 .show-service-date input,
 .show-service-time input {
     width: 100%;
-    /* CHANGED */
-    /* Adjust input width */
     padding: 8px;
-    /* Add padding */
     border: 2px solid black;
-    /* Add border */
     border-radius: 4px;
-    /* Add border radius */
 }
 
 .show-service-date input[type="date"],
 .show-service-time input[type="time"] {
     appearance: none;
-    /* Remove default appearance */
     background-color: white;
-    /* Set background color */
     outline: none;
-    /* Remove outline */
     cursor: pointer;
-    /* Change cursor to pointer */
 }
 
 @media (max-width: 1024px) {
@@ -181,11 +171,8 @@ p {
 @media (max-width: 768px) {
     .show-service-popup {
         width: 90%;
-        /* Adjust width for smaller screens */
         padding: 20px;
-        /* Adjust padding */
         max-width: 500px;
-        /* Limit maximum width */
     }
 
     .show-service-time {

@@ -74,7 +74,7 @@ const StoreContextProvider = (props) => {
             setShowAddedMessage("not-added");
             setTimeout(() => {
                 setShowAddedMessage("");
-            }, 3000); // Hide the message after 3 seconds
+            }, 3000);
         }
 
     };

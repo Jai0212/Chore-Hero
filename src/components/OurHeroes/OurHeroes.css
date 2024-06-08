@@ -21,7 +21,6 @@
     align-items: center;
     gap: 30px;
     text-align: center;
-    /* margin: 20px 0px; */
     overflow-x: scroll;
 }
 
@@ -66,53 +65,41 @@
 @media (max-width: 1024px) {
     .our-heroes-list {
         gap: 20px;
-        /* Reduce gap */
     }
 
     .our-heroes-list-hero img {
         width: 120px;
-        /* Adjust image width */
         height: 120px;
-        /* Adjust image height */
     }
 
     .our-heroes-list-hero p {
         font-size: 20px;
-        /* Reduce font size */
     }
 }
 
-/* Media queries for phones */
 @media (max-width: 768px) {
     .our-heroes {
         gap: 10px;
-        /* Reduce gap between elements */
     }
 
     .our-heroes h1 {
         font-size: 32px;
-        /* Reduce font size for heading */
     }
 
     .our-heroes-text {
         max-width: 80%;
-        /* Increase max-width for better readability */
     }
 
     .our-heroes-list {
         gap: 10px;
-        /* Reduce gap between elements */
     }
 
     .our-heroes-list-hero img {
         width: 100px;
-        /* Adjust image width */
         height: 100px;
-        /* Adjust image height */
     }
 
     .our-heroes-list-hero p {
         font-size: 16px;
-        /* Reduce font size */
     }
 }
