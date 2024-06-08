@@ -184,4 +184,18 @@
     service-cart-description {
         margin-right: 0px;
     }
+
+    .cart-promocode-input {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .cart-promocode-input input {
+        flex-grow: 1;
+    }
+
+    .cart-promocode-input button {
+        flex-shrink: 0;
+    }
 }
