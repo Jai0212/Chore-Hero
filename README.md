@@ -53,8 +53,9 @@ Packages/Dependencies:
 * **validator**: verifies email addresses
 
 <img width="250" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/720fd4d6-9936-405c-96d3-9ac4b1d527b0">
-<img width="240" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/5bbf3241-4152-4a2b-bfee-101391b3309c">
-<img width="510" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/723e77d6-e194-4f68-87fd-76153fc9fa32">
+<img width="250" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/5bbf3241-4152-4a2b-bfee-101391b3309c">
+<img width="600" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/723e77d6-e194-4f68-87fd-76153fc9fa32">
+
 The frontend and admin website on a phone and tablet
 
 ## Usage - Frontend
