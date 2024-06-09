@@ -1,6 +1,6 @@
 # Chore Hero
 
-Chore Hero is a comprehensive full-stack web application designed to connect users with skilled professionals for a variety of services, including cleaning, plumbing, gardening, dog walking, and more. Whether it's a one-time task or a regular service, Chore Hero's talented heroes are here to get your chores done efficiently and reliably.
+Chore Hero is a comprehensive full-stack web application designed to connect users with skilled professionals for a variety of services, including cleaning, plumbing, gardening, dog walking, and more. Whether it's a one-time task or a regular service, Chore Hero's talented heroes are here to get your chores done efficiently and reliably!
 
 **Chore Hero Website**: https://chore-hero.netlify.app/  
 **Chore Hero Admin Website**: https://chore-hero-admin.netlify.app/  
