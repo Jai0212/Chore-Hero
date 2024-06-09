@@ -12,9 +12,9 @@ Chore Hero is a comprehensive full-stack web application designed to connect use
 
 ## Overview
 Chore Hero is built using Vite and React for the frontend, and Node.js with Express for the backend. The database is managed with MongoDB, ensuring secure and efficient data handling. The frontend and admin websites are hosted on Netlify, while the backend is hosted on Render.
-There is also an admin webiste to control webiste changes and for our heroes to add services.
+There is also an admin website to control website changes and for our heroes to add services.
 
-NOTE: This is the frontend repsoitory, the admin and backend repsoitory can be viewed below:  
+NOTE: This is the frontend repository, the admin and backend repository can be viewed below:  
 **Chore Hero Admin**: https://github.com/Jai0212/Chore-Hero-Admin  
 **Chore Hero Backend**: https://github.com/Jai0212/Chore-Hero-Backend  
 
@@ -25,8 +25,8 @@ NOTE: This is the frontend repsoitory, the admin and backend repsoitory can be v
 * **Fully Functioning Website**: Features include user sign-up, add to cart, and order placement functionalities.
 * **Secure Payment Processing**: Payment authentication is handled using Stripe, with verification through API calls.
 * **Robust Authentication System**: Secure user authentication and data protection using middleware and tokenization.
-* **Order Management**: Users can view their orders, with cart and order data securely stored in the database.
-* **Responsive Design**: The website is optimized for use on laptop, phones and tablets, providing a seamless experience across all devices.
+* **Order Management**: Users can view their orders, with their cart and order data securely stored in the database.
+* **Responsive Design**: The website is optimized for use on laptops, phones and tablets, providing a seamless experience across all devices.
 
 
 ## Technical Aspects
@@ -70,7 +70,7 @@ To experience Chore Hero, visit the website: https://chore-hero.netlify.app/
 
 
 ## Usage - Admin
-You can view the admin webiste from this link: https://chore-hero-admin.netlify.app/  
+You can view the admin website from this link: https://chore-hero-admin.netlify.app/  
 
 * **Initial Load Time**: Just like the main website, the admin panel may take about 45 seconds to load initially as the backend activates.
 * **Select Hero**: At the top of the admin website, you'll find a dropdown menu. Choose the hero whose admin panel you want to access.
@@ -116,7 +116,7 @@ $ npm run dev
 Chore Hero Backend:
 * The main file is server.js to initialize everything
 * Uploads folder has all the images uploaded in the backend
-* The contollers, routes, models and middleware are in the respective folders
+* The controllers, routes, models and middleware are in the respective folders
 
 To run the backend locally, type the below in the terminal:
 ```bash
@@ -129,7 +129,7 @@ $ npm run server
 ## Acknowledgments
 I would like to thank Netlify and Render thanks to which I was able to host the frontend and backend of my project.
 
-Aditionally, the pictures for the various services and the header image were all publicly available on Google and thus were used from there.
+Additionally, the pictures for the various services and the header image were all publicly available on Google and thus were used from there.
 
 **NOTE**: No payment made will actually be fully processed. The heroes are placeholder data and the footer contact details are for show.
 
