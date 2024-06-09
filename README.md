@@ -6,9 +6,10 @@ Chore Hero is a comprehensive full-stack web application designed to connect use
 **Chore Hero Admin Website**: https://chore-hero-admin.netlify.app/  
 
 <a href="https://chore-hero.netlify.app/">
-  <img width="180" alt="logo" src="https://github.com/Jai0212/Chore-Hero-Admin/assets/86296165/ae5db8b8-41e4-4fdf-969c-b5b7a17bc574" style="border-radius: 14px; display: block; margin: 0 auto; border: 6px solid #004d40;">
+  <p align="center">
+    <img width="180" src="https://github.com/Jai0212/Chore-Hero-Admin/assets/86296165/ae5db8b8-41e4-4fdf-969c-b5b7a17bc574">
+  </p>
 </a>
-
 
 ## Overview
 Chore Hero is built using Vite and React for the frontend, and Node.js with Express for the backend. The database is managed with MongoDB, ensuring secure and efficient data handling. The frontend and admin websites are hosted on Netlify, while the backend is hosted on Render.
@@ -51,6 +52,11 @@ Packages/Dependencies:
 * **multer**: handles image uploads to the backend
 * **validator**: verifies email addresses
 
+<img width="250" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/720fd4d6-9936-405c-96d3-9ac4b1d527b0">
+<img width="240" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/5bbf3241-4152-4a2b-bfee-101391b3309c">
+<img width="510" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/723e77d6-e194-4f68-87fd-76153fc9fa32">
+The frontend and admin website on a phone and tablet
+
 ## Usage - Frontend
 To experience Chore Hero, visit the website: https://chore-hero.netlify.app/
 
@@ -80,6 +86,9 @@ You can view the admin website from this link: https://chore-hero-admin.netlify.
 
 NOTE: For any changes made in the admin to be reflected on the frontend, you might have to reload the frontend once.
 
+<img width="900" alt="chore-hero-cart" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/e08a2544-1eba-4b19-b455-aeaea1b593a6">  
+
+The cart page on a laptop
 
 ## Sample Usage
 To experience the immediate functionality of the website, you can log in to a test account: 
