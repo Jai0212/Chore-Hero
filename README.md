@@ -13,9 +13,9 @@ Chore Hero is a comprehensive full-stack web application designed to connect use
 
 ## Overview
 Chore Hero is built using Vite and React for the frontend, and Node.js with Express for the backend. The database is managed with MongoDB, ensuring secure and efficient data handling. The frontend and admin websites are hosted on Netlify, while the backend is hosted on Render.
-There is also an admin website to control website changes and for our heroes to add services.
+There is also an admin website to control website changes and allow our heroes to add services.
 
-NOTE: This is the frontend repository, the admin and backend repository can be viewed below:  
+NOTE: This is the frontend repository, the admin and backend repositories can be viewed below:  
 **Chore Hero Admin**: https://github.com/Jai0212/Chore-Hero-Admin  
 **Chore Hero Backend**: https://github.com/Jai0212/Chore-Hero-Backend  
 
