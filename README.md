@@ -1,5 +1,9 @@
 # Chore Hero
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/65c2db26-da31-4712-a791-6e8995f1b338/deploy-status)](https://app.netlify.com/sites/chore-hero/deploys)
+![License](https://img.shields.io/github/license/Jai0212/Chore-Hero)
+
+
 Chore Hero is a comprehensive full-stack web application designed to connect users with skilled professionals for a variety of services, including cleaning, plumbing, gardening, dog walking, and more. Whether it's a one-time task or a regular service, Chore Hero's talented heroes are here to get your chores done efficiently and reliably!
 
 **Chore Hero Website**: https://chore-hero.netlify.app/  
@@ -7,17 +11,15 @@ Chore Hero is a comprehensive full-stack web application designed to connect use
 
 <a href="https://chore-hero.netlify.app/">
   <p align="center">
-    <img width="180" src="https://github.com/Jai0212/Chore-Hero-Admin/assets/86296165/ae5db8b8-41e4-4fdf-969c-b5b7a17bc574">
+    <img width="180" src="https://github.com/Jai0212/Chore-Hero-Admin/assets/86296165/ae5db8b8-41e4-4fdf-969c-b5b7a17bc574" style="border-radius: 15px; border: 4px solid #004d40;">
   </p>
 </a>
 
-## Overview
-Chore Hero is built using Vite and React for the frontend, and Node.js with Express for the backend. The database is managed with MongoDB, ensuring secure and efficient data handling. The frontend and admin websites are hosted on Netlify, while the backend is hosted on Render.
-There is also an admin website to control website changes and allow our heroes to add services.
 
-NOTE: This is the frontend repository, the admin and backend repositories can be viewed below:  
-**Chore Hero Admin**: https://github.com/Jai0212/Chore-Hero-Admin  
-**Chore Hero Backend**: https://github.com/Jai0212/Chore-Hero-Backend  
+## Overview
+Chore Hero is built using the **MERN Stack** (MongoDB, Express, React, Node.js) with Vite for the frontend bundling.   
+
+There is also an admin website to control website changes and allow our heroes to add services.
 
 
 ## Features
@@ -31,6 +33,7 @@ NOTE: This is the frontend repository, the admin and backend repositories can be
 
 
 ## Technical Aspects
+* **Stack**: MERN (MongoDB, Express, React, Node.js)
 * **Frontend**: Developed using Vite and React.
 * **Backend**: Implemented with Node.js and Express.
 * **Languages**: HTML, CSS, and JavaScript.
@@ -40,7 +43,7 @@ NOTE: This is the frontend repository, the admin and backend repositories can be
 
 <br> 
 
-Packages/Dependencies:
+### Packages/Dependencies:
 * **mongoose**: connects to MongoDB database
 * **axios**: generates api calls
 * **cors**: allows frontend-backend interaction
@@ -57,6 +60,11 @@ Packages/Dependencies:
 <img width="600" height="450" src="https://github.com/Jai0212/Chore-Hero/assets/86296165/723e77d6-e194-4f68-87fd-76153fc9fa32">
 
 The frontend and admin website on a phone and tablet
+
+### Files
+- `frontend` - React/Vite main frontend code
+- `backend` - JavaScript, Node.js, Express.js, MongoDB backend
+- `admin` - React/Vite admin frontend code
 
 ## Usage - Frontend
 To experience Chore Hero, visit the website: https://chore-hero.netlify.app/
@@ -147,4 +155,4 @@ I worked on this project alone and will not be actively working on this project 
 
 Author and Date  
 by Jai Joshi  
-Updated on 10th June, 2024
+Updated on 20th July, 2024
