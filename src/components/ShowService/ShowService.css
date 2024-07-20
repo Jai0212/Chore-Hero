@@ -37,7 +37,6 @@
     position: fixed;
     border: 2px solid black;
 
-    /* Centering */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -66,7 +65,10 @@
     border: 2px solid black;
 }
 
-.show-service h2, input, button, p {
+.show-service h2,
+input,
+button,
+p {
     background-color: transparent;
 }
 
@@ -74,6 +76,9 @@
     width: 440px;
     height: 100px;
     background-color: transparent;
+    padding: 6px;
+    border-radius: 2px;
+    border: 1.5px solid black;
 }
 
 .show-service-date {
@@ -96,7 +101,8 @@
     margin-right: 5px;
 }
 
-.show-service-date, .show-service-time {
+.show-service-date,
+.show-service-time {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,8 +111,8 @@
 
 .show-service-date-and-time {
     display: flex;
-    flex-direction: row; /* Display the date and time items horizontally */
-    justify-content: space-between; /* Add space between the date and time */
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .show-service-cost {
@@ -130,7 +136,55 @@
 }
 
 .show-service button:disabled {
-    background-color: #ccc; /* Change background color */
-    cursor: not-allowed; /* Change cursor to not-allowed */
-    color: #999; /* Change text color */
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #999;
+}
+
+.show-service-date input,
+.show-service-time input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.show-service-date input[type="date"],
+.show-service-time input[type="time"] {
+    appearance: none;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .show-service-popup {
+        width: 70%;
+    }
+
+    .show-service-date input[type="date"],
+    .show-service-time input[type="time"] {
+        width: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .show-service-popup {
+        width: 90%;
+        padding: 20px;
+        max-width: 500px;
+    }
+
+    .show-service-time {
+        margin-right: 20px;
+    }
+
+    .show-service-date input[type="date"],
+    .show-service-time input[type="time"] {
+        width: 70px;
+    }
+
+    .show-service-description textarea::placeholder {
+        font-size: 16px;
+    }
 }

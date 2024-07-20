@@ -7,49 +7,14 @@ export const StoreContext = React.createContext(null)
 const StoreContextProvider = (props) => {
 
     const url = process.env.REACT_APP_API_URL || "https://chore-hero-backend.onrender.com";
-    
+
     const [token, setToken] = React.useState("");
 
     const [servicesList, setServicesList] = React.useState([]);
     const [cartItems, setCartItems] = React.useState({});
-    const [selectedDate, setSelectedDate] = React.useState('');
-    const [selectedTime, setSelectedTime] = React.useState('');
+
 
     const [showAddedMessage, setShowAddedMessage] = React.useState("");
-
-    // const addToCart = (serviceName, description, date, time) => {
-
-    //     // if (!cartItems[serviceName]) {
-    //     //     setCartItems((prev) => ({ ...prev, [serviceName]: 1 }))
-
-    //     //     setShowAddedMessage("added");
-    //     //     setTimeout(() => {
-    //     //         setShowAddedMessage("");
-    //     //     }, 3000); // Hide the message after 3 seconds
-    //     // }
-    //     // else {
-    //     //     setShowAddedMessage("not-added");
-    //     //     setTimeout(() => {
-    //     //         setShowAddedMessage("");
-    //     //     }, 3000); // Hide the message after 3 seconds
-    //     // }
-
-    //     if (token) {
-    //         axios.post(
-    //             url + "/api/cart/add",
-    //             { itemId: servicesList.find(service => service.name === serviceName && service.cost !== null)._id },
-    //             { headers: { token } }
-    //         )
-    //     }
-
-    //     setServicesList((prevServices) =>
-    //         prevServices.map((service) =>
-    //             service.name === serviceName
-    //                 ? { ...service, description: description, date: date, time: time }
-    //                 : service
-    //         )
-    //     );
-    // };
 
     const addToCart = async (serviceName, description, date, time) => {
         try {
@@ -83,12 +48,12 @@ const StoreContextProvider = (props) => {
                     setShowAddedMessage("added");
                     setTimeout(() => {
                         setShowAddedMessage("");
-                    }, 3000); // Hide the message after 3 seconds
+                    }, 3000);
                 } else {
                     setShowAddedMessage("not-added");
                     setTimeout(() => {
                         setShowAddedMessage("");
-                    }, 3000); // Hide the message after 3 seconds
+                    }, 3000);
                 }
 
                 await loadCartData(token);
@@ -109,23 +74,10 @@ const StoreContextProvider = (props) => {
             setShowAddedMessage("not-added");
             setTimeout(() => {
                 setShowAddedMessage("");
-            }, 3000); // Hide the message after 3 seconds
+            }, 3000);
         }
 
     };
-
-
-    // const removeFromCart = async (serviceName) => {
-    //     if (token) {
-    //         await axios.post(url + "/api/cart/remove",
-    //             { itemId: servicesList.find(service => service.name === serviceName && service.cost !== null)._id },
-    //             { headers: { token } });
-    //         await loadCartData(token);
-    //     }
-    //     else {
-    //         setCartItems((prev) => ({ ...prev, [serviceName]: prev[serviceName] - 1 }))
-    //     }
-    // }
 
     const removeFromCart = async (serviceName) => {
         const service = servicesList.find(service => service.name === serviceName && service.cost !== null);
@@ -202,12 +154,6 @@ const StoreContextProvider = (props) => {
     //     console.log("Updated cartItems:", cartItems);
     // }, [cartItems]);
 
-    // return (
-    //     <StoreContext.Provider value={contextValue}>
-    //         {props.children}
-    //     </StoreContext.Provider>
-    // )
-
     return (
         <StoreContext.Provider value={contextValue}>
             {showAddedMessage === "added" ?
@@ -219,6 +165,3 @@ const StoreContextProvider = (props) => {
 }
 
 export default StoreContextProvider
-
-// 1:07:00
-// 1:39:00

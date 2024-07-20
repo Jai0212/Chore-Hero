@@ -4,9 +4,7 @@
     background: url('/header_image.jpeg') no-repeat;
     background-size: cover;
     position: relative;
-    /* border: 3px solid black; */
-    border-radius: 15px; /* Make the corners rounded */
-    /* box-shadow: 10px 24px 40px rgba(0, 0, 0, 0.2);  */
+    border-radius: 15px;
     box-shadow: 10px 8px 16px #004d40;
     overflow: hidden;
 }

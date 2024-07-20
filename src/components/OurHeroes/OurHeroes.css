@@ -21,7 +21,6 @@
     align-items: center;
     gap: 30px;
     text-align: center;
-    /* margin: 20px 0px; */
     overflow-x: scroll;
 }
 
@@ -61,4 +60,46 @@
     height: 2px;
     background-color: black;
     border: none;
+}
+
+@media (max-width: 1024px) {
+    .our-heroes-list {
+        gap: 20px;
+    }
+
+    .our-heroes-list-hero img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .our-heroes-list-hero p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-heroes {
+        gap: 10px;
+    }
+
+    .our-heroes h1 {
+        font-size: 32px;
+    }
+
+    .our-heroes-text {
+        max-width: 80%;
+    }
+
+    .our-heroes-list {
+        gap: 10px;
+    }
+
+    .our-heroes-list-hero img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .our-heroes-list-hero p {
+        font-size: 16px;
+    }
 }

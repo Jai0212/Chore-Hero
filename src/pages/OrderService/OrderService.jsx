@@ -1,13 +1,11 @@
 import React, { useEffect } from 'react'
 import './OrderService.css'
 import { StoreContext } from '../../context/StoreContext';
-import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const OrderService = () => {
 
   const { cartItems, getCartTotal, token, servicesList, url } = React.useContext(StoreContext);
-  const navigate = useNavigate();
 
   const [data, setData] = React.useState({
     firstName: "",
@@ -112,5 +110,3 @@ const OrderService = () => {
 }
 
 export default OrderService
-
-// 3:11:00

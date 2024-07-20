@@ -6,10 +6,6 @@
     margin-bottom: -20px;
 }
 
-/* .logo {
-    width: 150px;
-} */
-
 .logo {
     border-radius: 15px;
     border: 6px solid #004d40;
@@ -93,7 +89,7 @@
 }
 
 .cart {
-    width: 33px;
+    width: 34px;
     cursor: pointer;
 }
 
@@ -125,14 +121,13 @@
     position: relative;
 }
 
-.navigation-bar-profile:hover .navigation-bar-profile-dropdown{
+.navigation-bar-profile:hover .navigation-bar-profile-dropdown {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 12px 20px;
     border-radius: 4px;
     border: 2px solid #004d40;
-    /* outline: 2px solid #004d40; */
     list-style: none;
 }
 
@@ -167,8 +162,12 @@
 }
 
 @media (max-width: 1050px) {
-    .navigation-bar .logo{
+    .navigation-bar .logo {
         width: 140px;
+    }
+
+    .navigation-bar-right img {
+        width: 38px;
     }
 
     .navigation-bar-menu {
@@ -176,22 +175,34 @@
         font-size: 17px;
     }
 
-    .navigation-bar-right {
-        gap: 30px;
+    .navigation-bar-right button {
+        padding: 8px 25px;
+    }
+
+    .navigation-bar-profile-icon {
+        width: 45px;
     }
 
     .navigation-bar-right img {
-        width: 22px;
+        width: 38px;
     }
 
-    .navigation-bar-right button {
-        padding: 8px 25px;
+    .cart {
+        width: 40px;
+    }
+
+    .navigation-bar-right {
+        gap: 30px;
     }
 }
 
 @media (max-width: 900px) {
-    .navigation-bar .logo{
+    .navigation-bar .logo {
         width: 1w0px;
+    }
+
+    .navigation-bar-right img {
+        width: 38px;
     }
 
     .navigation-bar-menu {
@@ -199,22 +210,38 @@
         font-size: 16px;
     }
 
-    .navigation-bar-right {
-        gap: 20px;
-    }
-
-    .navigation-bar-right img {
-        width: 20px;
-    }
-
     .navigation-bar-right button {
         padding: 7px 20px;
         font-size: 15px;
+    }
+
+    .navigation-bar-right img {
+        width: 38px;
+    }
+
+    .cart {
+        width: 40px;
+    }
+
+    .navigation-bar-right {
+        gap: 30px;
     }
 }
 
 @media (max-width: 779px) {
     .navigation-bar-menu {
         display: none;
+    }
+
+    .navigation-bar-right img {
+        width: 38px;
+    }
+
+    .cart {
+        width: 40px;
+    }
+
+    .navigation-bar-right {
+        gap: 30px;
     }
 }

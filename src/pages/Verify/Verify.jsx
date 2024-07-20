@@ -13,6 +13,8 @@ const Verify = () => {
     const navigate = useNavigate();
 
     const verifyPayment = async () => {
+        console.log(success, orderId)
+        console.log(url)
         const response = await axios.post(url + '/api/order/verify', { orderId, success });
         if (response.data.success) {
             navigate('/myorders')
@@ -29,7 +31,6 @@ const Verify = () => {
     return (
         <div className='verify'>
             <div className="spinner">
-
             </div>
         </div>
     )

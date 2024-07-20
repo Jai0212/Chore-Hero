@@ -2,20 +2,20 @@
     margin-top: 80px;
 }
 
-.cart-items-name {
+.cart-items-header,
+.cart-items-name,
+.cart-items-item {
     display: grid;
     grid-template-columns: 0.5fr 0.8fr 3fr 0.6fr 0.3fr 0.2fr;
+    justify-items: center;
     align-items: center;
-    color: black;
-    font-size: max(1vw, 12px);
+    gap: 10px;
+    text-align: center;
 }
 
 .cart-items-header {
-    display: grid;
-    grid-template-columns: 0.5fr 0.8fr 3fr 0.6fr 0.3fr 0.2fr;
-    align-items: center;
     color: #004d40;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .cart-items-item {
@@ -36,11 +36,6 @@
 .x-icon {
     cursor: pointer;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: -15px;
     transition: all 0.1s;
 }
 
@@ -49,16 +44,11 @@
     transform: scale(1.4);
 }
 
-.service-cost {
-    margin-left: -10px;
-}
-
 .service-date-and-time {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: -50px;
 }
 
 .cart-container {
@@ -150,4 +140,62 @@
 .cart-bottom-hr {
     margin: 10px 0px;
     border-color: black;
+}
+
+.service-cost,
+.x-icon,
+.service-date-and-time {
+    margin-right: 30px;
+}
+
+.service-cart-description {
+    margin-right: 31px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cart-container {
+        gap: 30px;
+    }
+
+    .cart-description {
+        display: none;
+    }
+
+    .cart-items-item p:nth-child(3) {
+        display: none;
+    }
+
+    .cart-items-header,
+    .cart-items-name {
+        grid-template-columns: 0.6fr 0.7fr 0.9fr 0.3fr 0.2fr;
+        font-size: max(1vw, 12px);
+        gap: 5px;
+    }
+
+    .cart-items-item img {
+        width: 50px;
+    }
+
+    .service-cost,
+    .x-icon,
+    .service-date-and-time,
+    service-cart-description {
+        margin-right: 0px;
+    }
+
+    .cart-promocode-input {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .cart-promocode-input input {
+        flex-grow: 1;
+    }
+
+    .cart-promocode-input button {
+        flex-shrink: 0;
+        margin-bottom: 0;
+        margin-top: 18px;
+    }
 }

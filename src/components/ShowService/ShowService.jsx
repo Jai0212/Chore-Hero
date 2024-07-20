@@ -1,12 +1,11 @@
 import React from 'react'
 import './ShowService.css'
 import { assets } from '../../assets/assets'
-import { getServiceImage, getServiceCost } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
 
 const ShowService = ({ showService, setShowService }) => {
 
-    const { cartItems, addToCart, removeFromCart, servicesList, token, url } = React.useContext(StoreContext);
+    const { addToCart, servicesList, token, url } = React.useContext(StoreContext);
     const [description, setDescription] = React.useState('');
     const [date, setDate] = React.useState('');
     const [time, setTime] = React.useState('');
@@ -18,7 +17,7 @@ const ShowService = ({ showService, setShowService }) => {
     }, [description, date, time]);
 
     const handleAddToCart = (e) => {
-        e.preventDefault(); // Prevent default form submission behavior
+        e.preventDefault();
         if (isFormValid) {
             addToCart(showService, description, date, time); // Call addToCart function
             setShowService("");
@@ -33,7 +32,7 @@ const ShowService = ({ showService, setShowService }) => {
                     <img onClick={() => setShowService("")} src={assets.cross_icon} alt="" className='show-service-cross-icon' />
                 </div>
                 <div>
-                    <img src={url+"/images/"+servicesList.find(service => service.name === showService && service.cost !== null).image} alt="" className='show-service-image' />
+                    <img src={url + "/images/" + servicesList.find(service => service.name === showService && service.cost !== null).image} alt="" className='show-service-image' />
                 </div>
                 <div className='show-service-description'>
                     <textarea
@@ -70,10 +69,10 @@ const ShowService = ({ showService, setShowService }) => {
                 <div className='show-service-cost'>
                     <p>Cost: ${servicesList.find(service => service.name === showService && service.cost !== null).cost}</p>
                 </div>
-                {token 
-                ? <button className="show-service-button" onClick={handleAddToCart} disabled={!isFormValid}>Add to Cart</button>
-                : <button className="show-service-button" onClick={handleAddToCart} disabled={true} >Sign in to add services to cart</button>}
-                
+                {token
+                    ? <button className="show-service-button" onClick={handleAddToCart} disabled={!isFormValid}>Add to Cart</button>
+                    : <button className="show-service-button" onClick={handleAddToCart} disabled={true} >Sign in to add services to cart</button>}
+
             </form>
         </div>
     )

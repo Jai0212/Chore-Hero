@@ -1,4 +1,3 @@
-/* Base styles */
 .my-orders {
     margin: 50px 0px;
     min-height: calc(40vh - 100px);
@@ -15,10 +14,8 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 10px;
-    /* Reduced gap between columns */
     align-items: center;
     padding: 15px;
-    /* Reduced padding */
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     background-color: #f9f9f9;
@@ -33,9 +30,7 @@
 
 .my-orders img {
     width: 65px;
-    /* Smaller size for the profile icon */
     height: 65px;
-    /* Adjusted height */
     border-radius: 50%;
 }
 
@@ -49,7 +44,6 @@
 .my-orders-order h3 {
     font-size: 2.5vh;
     font-weight: bold;
-    /* Make the service name bold */
     margin: 0;
 }
 
@@ -57,14 +51,11 @@
     font-size: 1.8vh;
     margin: 0;
     color: #666;
-    /* Lighter color for date and time */
 }
 
 .my-orders-cost {
     font-size: 25px;
-    /* Slightly bigger font size for cost text */
     font-weight: bold;
-    /* Make the cost text bold */
     color: #004d40;
 }
 
@@ -75,16 +66,13 @@
 
 .my-orders-order h3 {
     padding-bottom: 5px;
-    /* Add some space below the service name */
     background-color: #f9f9f9;
 }
 
 .my-orders-order p {
     padding-top: 2px;
-    /* Add some space above the date and time */
 }
 
-/* For tablets */
 @media (max-width: 768px) {
     .my-orders {
         margin: 30px 0px;
@@ -121,7 +109,6 @@
     }
 }
 
-/* For mobile phones */
 @media (max-width: 480px) {
     .my-orders {
         margin: 20px 0px;
@@ -162,6 +149,5 @@
 
     .my-orders-inner {
         grid-template-columns: 1fr;
-        /* Single column for items */
     }
 }
