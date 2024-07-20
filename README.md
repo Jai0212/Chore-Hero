@@ -1,7 +1,8 @@
 # Chore Hero
 
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65c2db26-da31-4712-a791-6e8995f1b338/deploy-status)](https://app.netlify.com/sites/chore-hero/deploys)
-![License](https://img.shields.io/github/license/Jai0212/Chore-Hero)
+![License](https://img.shields.io/badge/license-Attribution--NonCommercial--NoDerivatives--4.0--International-red)
 
 
 Chore Hero is a comprehensive full-stack web application designed to connect users with skilled professionals for a variety of services, including cleaning, plumbing, gardening, dog walking, and more. Whether it's a one-time task or a regular service, Chore Hero's talented heroes are here to get your chores done efficiently and reliably!
@@ -11,7 +12,7 @@ Chore Hero is a comprehensive full-stack web application designed to connect use
 
 <a href="https://chore-hero.netlify.app/">
   <p align="center">
-    <img width="180" src="https://github.com/Jai0212/Chore-Hero-Admin/assets/86296165/ae5db8b8-41e4-4fdf-969c-b5b7a17bc574" style="border-radius: 15px; border: 4px solid #004d40;">
+    <img width="180" src="https://github.com/user-attachments/assets/7892c770-5d48-414c-b01e-ae953561b6b1" style="border-radius: 15px; border: 4px solid #004d40;">
   </p>
 </a>
 
@@ -114,11 +115,7 @@ You can also proceed to place an order using the following sample card details:
 
 
 ## Installation and Requirements
-If you wish to run the project locally to modify the project, you may download all the files in all the three repositories:  
-
-Chore Hero: https://github.com/Jai0212/Chore-Hero  
-Chore Hero Admin: https://github.com/Jai0212/Chore-Hero-Admin  
-Chore Hero Backend: https://github.com/Jai0212/Chore-Hero-Backend  
+If you wish to run the project locally to modify the project, follow these steps:
 
 Chore Hero Frontend and Admin:  
 * App.jsx is the main file with primary styling in index.css
@@ -151,7 +148,7 @@ Additionally, the pictures for the various services and the header image were al
 
 **NOTE**: No payment made will actually be fully processed. The heroes are placeholder data and the footer contact details are for show.
 
-I worked on this project alone and will not be actively working on this project anymore (I will be creating other related projects). However, I would love any suggestions/feedback/collaborative requests.
+*For suggestions, feedback, collaborations, or bug reports, please contact me via email: jj.joshijai@gmail.com*
 
 Author and Date  
 by Jai Joshi  
